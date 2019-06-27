@@ -1,0 +1,639 @@
+[10:45:57 122]:   Thread start. id=5276
+[10:46:05 459]:   IRDeviceSearch:  address_str=[index:f81d78702e26  ip:192.168.125.104 ip_netmask:255.255.255.0 ip_gateway:192.168.125.1 ip_dnsip:192.168.125.1]
+[10:46:05 459]:   address.index=f81d78702e26
+[10:46:13 644]:   Base64Name=YWRtaW46OTk5OQ==
+[10:46:14 596]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[10:46:14 598]:  ERROR! Has not find softwareversion when req arm version
+[10:46:14 649]:   Now try GetArmVersionHS
+[10:46:14 649]:   Base64Name=YWRtaW46OTk5OQ==
+[10:46:14 774]:   Recv armversion is "ZU02A V2.19"
+[10:46:14 825]:   cArmVersion=zu02a
+[10:46:14 825]:   GD_MTC_SDK_Login
+[10:46:14 825]:   Into msgToThisServiceCoreAndWaitForResult
+[10:46:14 825]:   msg to ServiceCore msgId=0, pMsg=0
+[10:46:14 825]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[10:46:14 826]:   Create Device: NET384x288NOCLIPHS
+[10:46:14 828]:   Thread start. id=12668
+[10:46:14 846]:   Thread start. id=2000
+[10:46:14 847]:   Thread start. id=4904
+[10:46:14 853]:   GD_MTC_SDK_OpenStream
+[10:46:14 853]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:14 856]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[10:46:14 856]:   Base64Name=YWRtaW46OTk5OQ==
+[10:46:14 954]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[10:46:14 955]:   After remove same range info
+[10:46:14 955]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[10:46:14 955]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[10:46:14 955]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[10:46:14 956]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[10:46:14 960]:   H264Pull::openStream
+[10:46:14 960]:   avcodec_register_all
+[10:46:14 990]:   av_register_all
+[10:46:14 997]:   avformat_network_init
+[10:46:15 000]:   avformat_alloc_context
+[10:46:15 001]:   set interruptCb in H264Puller
+[10:46:15 001]:   avformat_open_input
+[10:46:15 006]:   Recv calc parm: [recvDistance=30&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-32242&recvDis_a1=7597&recvDis_b0=828&recvDis_b1=9755&recvDis_c0=-2170&recvDis_c1=677&recvKF=97&&recvB0=200&recvK1=0&recvK2=20000&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=-9150&recvK6=-1974&recvB3=2300]
+[10:46:15 006]:   info->recvEmiss=98
+[10:46:15 006]:   info->recvDistance=30
+[10:46:15 043]:   avformat_find_stream_info
+[10:46:15 043]:   After open h264 stream
+[10:46:15 043]:   H264Pull::startRecvStream
+[10:46:15 043]:   H264Puller start recv data.
+[10:46:15 044]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[10:46:15 044]:   wait msg result in time. [nMsgType=1003]
+[10:46:15 044]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 044]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 059]:   Send change palette
+[10:46:15 060]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[10:46:15 060]:   wait msg result in time. [nMsgType=1021]
+[10:46:15 060]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 060]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 062]:   wait msg result in time. [nMsgType=1026]
+[10:46:15 062]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 062]:  WARNING! Function not support nMsgType=1026, nPullDataType=0
+[10:46:15 062]:   Send msg OK.[nMsgType=1048, nMsgId=25] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:46:15 062]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 068]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1048
+[10:46:15 068]:   wait msg result in time. [nMsgType=1048]
+[10:46:15 068]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:15 068]:   GD_MTC_SDK_GetDeviceInfo
+[10:46:15 068]:   GD_MTC_SDK_GetArmVersion
+[10:46:15 069]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 108]:   Recv armversion is "ZU02A V2.19"
+[10:46:16 160]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1031
+[10:46:16 160]:   wait msg result in time. [nMsgType=1031]
+[10:46:16 160]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 160]:   GD_MTC_SDK_GetArmVersion return
+[10:46:16 160]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 164]:   reqOneFrameIfNeededAndBufferMsg in DataDeal::onMsg MSG_TYPE_DEVICE_INFO
+[10:46:16 164]:   Req One frame to Y16Puller
+[10:46:16 221]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[10:46:16 236]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[10:46:16 236]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[10:46:16 237]:  ERROR! Curve[5], element[5861] format error
+
+[10:46:16 237]:  ERROR! Curve[8], element[4814] format error
+
+[10:46:16 237]:   ProcessOneFrameData
+[10:46:16 237]:   isValidY16Header confirmed
+[10:46:16 282]:   Recv calc parm: [recvDistance=30&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-32242&recvDis_a1=7597&recvDis_b0=828&recvDis_b1=9755&recvDis_c0=-2170&recvDis_c1=677&recvKF=97&&recvB0=200&recvK1=0&recvK2=20000&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=-9150&recvK6=-1974&recvB3=2300]
+[10:46:16 282]:   info->recvEmiss=98
+[10:46:16 282]:   info->recvDistance=30
+[10:46:16 333]:   Use HsCurve[1], range=0, gear=2
+[10:46:16 336]:   deviceInfo.DevType = 11 in DataDeal
+[10:46:16 337]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_DEVICE_INFO
+[10:46:16 337]:   wait msg result in time. [nMsgType=1039]
+[10:46:16 337]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 337]:   deviceInfo.DevType=11
+[10:46:16 338]:   Send msg OK.[nMsgType=1048, nMsgId=54] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:46:16 338]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 344]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1048
+[10:46:16 344]:   wait msg result in time. [nMsgType=1048]
+[10:46:16 344]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 346]:   Send msg OK.[nMsgType=1057, nMsgId=58] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:46:16 346]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 350]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1057
+[10:46:16 350]:   wait msg result in time. [nMsgType=1057]
+[10:46:16 350]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 350]:   Send msg OK.[nMsgType=1058, nMsgId=61] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:46:16 350]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 358]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_GET_PALETTE_DATA
+[10:46:16 358]:   wait msg result in time. [nMsgType=1058]
+[10:46:16 358]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 358]:   Send msg OK.[nMsgType=1048, nMsgId=65] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:46:16 358]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 366]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1048
+[10:46:16 366]:   wait msg result in time. [nMsgType=1048]
+[10:46:16 366]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:46:16 661]:   Find first parm line block
+[10:46:22 138]:  WARNING! No h264 data.
+[10:46:22 138]:   pObj->m_bOpeningRtsp == false
+[10:46:22 138]:   pObj->m_bOpeningRtsp == false
+[10:46:22 142]:   H264Pull::openStream
+[10:46:22 142]:   avcodec_register_all
+[10:46:22 142]:   av_register_all
+[10:46:22 142]:   avformat_network_init
+[10:46:22 142]:   avformat_alloc_context
+[10:46:22 142]:   set interruptCb in H264Puller
+[10:46:22 142]:   avformat_open_input
+[10:46:25 171]:   H264Puller operation abort for 3000ms time out.
+[10:46:25 171]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:46:25 660]:  WARNING! No parm line data recved in 5000 ms in Y16PullerNET640x480HS
+[10:46:27 207]:   H264Pull::openStream
+[10:46:27 207]:   avcodec_register_all
+[10:46:27 207]:   av_register_all
+[10:46:27 207]:   avformat_network_init
+[10:46:27 207]:   avformat_alloc_context
+[10:46:27 208]:   set interruptCb in H264Puller
+[10:46:27 208]:   avformat_open_input
+[10:46:27 663]:  ERROR! Connect to 192.168.125.104 failed in CmdSenderHS::getAllCalcParm
+[10:46:30 233]:   H264Puller operation abort for 3000ms time out.
+[10:46:30 233]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:46:32 271]:   H264Pull::openStream
+[10:46:32 271]:   avcodec_register_all
+[10:46:32 271]:   av_register_all
+[10:46:32 271]:   avformat_network_init
+[10:46:32 272]:   avformat_alloc_context
+[10:46:32 272]:   set interruptCb in H264Puller
+[10:46:32 272]:   avformat_open_input
+[10:46:35 301]:   H264Puller operation abort for 3000ms time out.
+[10:46:35 302]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:46:37 340]:   H264Pull::openStream
+[10:46:37 340]:   avcodec_register_all
+[10:46:37 340]:   av_register_all
+[10:46:37 341]:   avformat_network_init
+[10:46:37 341]:   avformat_alloc_context
+[10:46:37 341]:   set interruptCb in H264Puller
+[10:46:37 341]:   avformat_open_input
+[10:46:40 367]:   H264Puller operation abort for 3000ms time out.
+[10:46:40 367]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:46:42 404]:   H264Pull::openStream
+[10:46:42 404]:   avcodec_register_all
+[10:46:42 404]:   av_register_all
+[10:46:42 404]:   avformat_network_init
+[10:46:42 404]:   avformat_alloc_context
+[10:46:42 404]:   set interruptCb in H264Puller
+[10:46:42 405]:   avformat_open_input
+[10:46:45 432]:   H264Puller operation abort for 3000ms time out.
+[10:46:45 432]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:46:47 469]:   H264Pull::openStream
+[10:46:47 470]:   avcodec_register_all
+[10:46:47 470]:   av_register_all
+[10:46:47 470]:   avformat_network_init
+[10:46:47 470]:   avformat_alloc_context
+[10:46:47 470]:   set interruptCb in H264Puller
+[10:46:47 470]:   avformat_open_input
+[10:46:48 663]:  WARNING! Connect to 192.168.125.104:4955 failed.
+[10:46:49 718]:   Recv calc parm: [recvDistance=30&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-32242&recvDis_a1=7597&recvDis_b0=828&recvDis_b1=9755&recvDis_c0=-2170&recvDis_c1=677&recvKF=97&&recvB0=200&recvK1=0&recvK2=20000&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=-9150&recvK6=-1974&recvB3=2300]
+[10:46:49 718]:   info->recvEmiss=98
+[10:46:49 718]:   info->recvDistance=30
+[10:46:50 498]:   H264Puller operation abort for 3000ms time out.
+[10:46:50 498]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:46:52 535]:   H264Pull::openStream
+[10:46:52 536]:   avcodec_register_all
+[10:46:52 536]:   av_register_all
+[10:46:52 536]:   avformat_network_init
+[10:46:52 536]:   avformat_alloc_context
+[10:46:52 536]:   set interruptCb in H264Puller
+[10:46:52 536]:   avformat_open_input
+[10:46:52 567]:   avformat_find_stream_info
+[10:46:52 567]:   After open h264 stream
+[10:46:59 832]:  WARNING! No h264 data.
+[10:46:59 832]:   pObj->m_bOpeningRtsp == false
+[10:46:59 832]:   pObj->m_bOpeningRtsp == false
+[10:46:59 833]:   H264Pull::openStream
+[10:46:59 833]:   avcodec_register_all
+[10:46:59 833]:   av_register_all
+[10:46:59 833]:   avformat_network_init
+[10:46:59 833]:   avformat_alloc_context
+[10:46:59 833]:   set interruptCb in H264Puller
+[10:46:59 833]:   avformat_open_input
+[10:47:02 659]:  WARNING! No parm line data recved in 5000 ms in Y16PullerNET640x480HS
+[10:47:02 860]:   H264Puller operation abort for 3000ms time out.
+[10:47:02 861]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:47:04 664]:  ERROR! Connect to 192.168.125.104 failed in CmdSenderHS::getAllCalcParm
+[10:47:04 898]:   H264Pull::openStream
+[10:47:04 898]:   avcodec_register_all
+[10:47:04 898]:   av_register_all
+[10:47:04 898]:   avformat_network_init
+[10:47:04 899]:   avformat_alloc_context
+[10:47:04 899]:   set interruptCb in H264Puller
+[10:47:04 899]:   avformat_open_input
+[10:47:07 335]:   Before Send msg in GD_MTC_SDK_CloseStream
+[10:47:07 335]:   Send msg OK.[nMsgType=1005, nMsgId=346] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:47:07 335]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:47:07 336]:   MSG_TYPE_CLOSE_STREAM msg in DataCore
+[10:47:07 338]:   MSG_TYPE_CLOSE_STREAM msg in DataDeal
+[10:47:07 340]:   set m_bExitThreadRecvOneFrame to true in Y16PullerOR2
+[10:47:07 346]:   RecvOneFrameThread thread exit
+[10:47:07 927]:   H264Puller operation abort for 3000ms time out.
+[10:47:07 928]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:47:09 964]:   H264Pull::openStream
+[10:47:09 964]:   avcodec_register_all
+[10:47:09 964]:   av_register_all
+[10:47:09 964]:   avformat_network_init
+[10:47:09 965]:   avformat_alloc_context
+[10:47:09 965]:   set interruptCb in H264Puller
+[10:47:09 965]:   avformat_open_input
+[10:47:09 985]:   avformat_find_stream_info
+[10:47:09 985]:   After open h264 stream
+[10:47:11 505]:  WARNING! No h264 data.
+[10:47:11 505]:   pObj->m_bOpeningRtsp == false
+[10:47:11 505]:   pObj->m_bOpeningRtsp == false
+[10:47:11 506]:   H264Pull::openStream
+[10:47:11 506]:   avcodec_register_all
+[10:47:11 506]:   av_register_all
+[10:47:11 506]:   avformat_network_init
+[10:47:11 506]:   avformat_alloc_context
+[10:47:11 506]:   set interruptCb in H264Puller
+[10:47:11 506]:   avformat_open_input
+[10:47:12 335]:   wait msg result in time. [nMsgType=1005]
+[10:47:12 335]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:47:12 335]:   After Send msg in GD_MTC_SDK_CloseStream
+[10:47:12 335]:   Into msgToThisServiceCoreAndWaitForResult
+[10:47:12 335]:   msg to ServiceCore msgId=358, pMsg=358
+[10:47:12 335]:   msg to ServiceCore msgId=358, pMsg=358. Done
+[10:47:12 337]:   Before delete DataCore
+[10:47:12 337]:   Before MsgObjThread::stop()
+[10:47:12 337]:   Before MsgObj::stop()
+[10:47:12 337]:   Before m_pMqThread->join();
+[10:47:12 338]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=100082696
+[10:47:12 339]:   Thread exit. id=4904
+[10:47:12 340]:   After m_pThread->join(); in ThreadMq::join
+[10:47:12 340]:   After m_pMqThread->join();
+[10:47:12 340]:   After MsgObj::stop()
+[10:47:12 340]:   After MsgObjThread::stop()
+[10:47:12 340]:   Before delete m_pDataCfg
+[10:47:12 340]:   After delete m_pDataCfg
+[10:47:12 340]:   Before MsgObjThread::stop()
+[10:47:12 341]:   Before MsgObj::stop()
+[10:47:12 341]:   Before m_pMqThread->join();
+[10:47:12 341]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=100082984
+[10:47:14 523]:   H264Puller operation abort for 3000ms time out.
+[10:47:14 524]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:47:16 546]:   H264Pull::openStream
+[10:47:16 546]:   avcodec_register_all
+[10:47:16 546]:   av_register_all
+[10:47:16 546]:   avformat_network_init
+[10:47:16 547]:   avformat_alloc_context
+[10:47:16 547]:   set interruptCb in H264Puller
+[10:47:16 547]:   avformat_open_input
+[10:47:19 564]:   H264Puller operation abort for 3000ms time out.
+[10:47:19 564]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:47:21 587]:   H264Pull::openStream
+[10:47:21 587]:   avcodec_register_all
+[10:47:21 587]:   av_register_all
+[10:47:21 587]:   avformat_network_init
+[10:47:21 587]:   avformat_alloc_context
+[10:47:21 587]:   set interruptCb in H264Puller
+[10:47:21 587]:   avformat_open_input
+[10:47:24 605]:   H264Puller operation abort for 3000ms time out.
+[10:47:24 605]:  WARNING! could not open input file [rtsp://192.168.125.104:8554/video]
+[10:47:25 667]:  WARNING! Connect to 192.168.125.104:4955 failed.
+[10:47:25 718]:   H264Puller thread exit
+[10:47:25 719]:   onCloseStreamH264Only return 1
+[10:47:25 720]:   Thread exit. id=12668
+[10:47:25 721]:   After m_pThread->join(); in ThreadMq::join
+[10:47:25 721]:   After m_pMqThread->join();
+[10:47:25 721]:   After MsgObj::stop()
+[10:47:25 721]:   After MsgObjThread::stop()
+[10:47:25 721]:   Before delete m_pDataPull
+[10:47:25 721]:   Before MsgObjThread::stop()
+[10:47:25 721]:   Before MsgObj::stop()
+[10:47:25 721]:   Before m_pMqThread->join();
+[10:47:25 721]:   After m_pMqThread->join();
+[10:47:25 721]:   After MsgObj::stop()
+[10:47:25 721]:   After MsgObjThread::stop()
+[10:47:25 721]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:47:25 721]:   After this->quit() in ThreadMq::~ThreadMq
+[10:47:25 721]:   Before this->join() in ThreadMq::~ThreadMq
+[10:47:25 721]:   After this->join() in ThreadMq::~ThreadMq
+[10:47:25 721]:   After delete m_pDataPull
+[10:47:25 721]:   Before MsgObjThread::stop()
+[10:47:25 721]:   Before MsgObj::stop()
+[10:47:25 721]:   Before m_pMqThread->join();
+[10:47:25 721]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=100082872
+[10:47:25 721]:   Thread exit. id=2000
+[10:47:25 722]:   After m_pThread->join(); in ThreadMq::join
+[10:47:25 722]:   After m_pMqThread->join();
+[10:47:25 722]:   After MsgObj::stop()
+[10:47:25 722]:   After MsgObjThread::stop()
+[10:47:25 722]:   Before delete m_pDataDeal
+[10:47:25 722]:   Before ~d20h264f1::DataDeal
+[10:47:25 722]:   Before MsgObjThread::stop()
+[10:47:25 722]:   Before MsgObj::stop()
+[10:47:25 722]:   Before m_pMqThread->join();
+[10:47:25 722]:   After m_pMqThread->join();
+[10:47:25 722]:   After MsgObj::stop()
+[10:47:25 722]:   After MsgObjThread::stop()
+[10:47:25 722]:   After ~d20h264f1::DataDeal
+[10:47:25 723]:   Before ~DataDealTpBase
+[10:47:25 735]:   After ~DataDealTpBase
+[10:47:25 735]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:47:25 735]:   After this->quit() in ThreadMq::~ThreadMq
+[10:47:25 735]:   Before this->join() in ThreadMq::~ThreadMq
+[10:47:25 735]:   After this->join() in ThreadMq::~ThreadMq
+[10:47:25 735]:   After delete m_pDataDeal
+[10:47:25 735]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:47:25 735]:   After this->quit() in ThreadMq::~ThreadMq
+[10:47:25 735]:   Before this->join() in ThreadMq::~ThreadMq
+[10:47:25 735]:   After this->join() in ThreadMq::~ThreadMq
+[10:47:25 735]:   After delete DataCore
+[10:47:26 737]:   4925648, MeasureCoreNet.cpp, 81
+[10:47:26 737]:   4866200, MqUtil\MsgObj.cpp, 45
+[10:47:26 737]:   4872000, MqUtil\ThreadMq.cpp, 19
+[10:47:26 737]:   4871696, MsgObjThread.cpp, 9
+[10:47:26 737]:   94740224, d1h264f1\ServiceCore_1.cpp, 629
+[10:47:26 737]:   77681464, d1h264f1\ServiceCore_1.cpp, 630
+[10:48:41 647]:   Base64Name=YWRtaW46OTk5OQ==
+[10:48:42 593]:   Recv armversion is "HTTP/1.1 405 Method Not Allowed
+Server: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 1363
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Fault xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsdd="http://schemas.xmlsoap.org/ws/2005/04/discovery" xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex" xmlns:wsa5="http://www.w3.org/2005/08/addressing" xmlns:xmime="http://tempuri.org/xmime.xsd" xmlns:xop="http://www.w3.org/2004/08/xop/include" xmlns:wsrfbf="http://docs.oasis-open.org/wsrf/bf-2" xmlns:tt="http://www.onvif.org/ver10/schema" xmlns:wstop="http://docs.oasis-open.org/wsn/t-1" xmlns:wsrfr="http://docs.oasis-open.org/wsrf/r-2" xmlns:tan="http://www.onvif.org/ver20/analytics/wsdl" xmlns:tdn="http://www.onvif.org/ver10/network/wsdl" xmlns:tds="http://www.onvif.org/ver10/device/wsdl" xmlns:tev="http://www.onvif.org/ver10/events/wsdl" xmlns:wsnt="http://docs.oasis-open.org/wsn/b-2" xmlns:timg="http://www.onvif.org/ver20/imaging/wsdl" xmlns:tmd="http://www.onvif.org/ver10/deviceIO/wsdl" xmlns:tptz="http://www.onvif.org/ver20/ptz/wsdl" xmlns:trt="http://www.onvif.org/ver10/media/wsdl"><faultcode>SOAP-ENV:Client</faultcode><faultstring>HTTP GET method not implemented</faultstring></SOAP-ENV:Fault>"
+[10:48:42 593]:  ERROR! Has not find softwareversion when req arm version
+[10:48:42 645]:   Now try GetArmVersionHS
+[10:48:42 645]:   Base64Name=YWRtaW46OTk5OQ==
+[10:48:42 771]:   Recv armversion is "ZU02A V2.19"
+[10:48:42 822]:   cArmVersion=zu02a
+[10:48:42 822]:   GD_MTC_SDK_Login
+[10:48:42 822]:   Into msgToThisServiceCoreAndWaitForResult
+[10:48:42 822]:   msg to ServiceCore msgId=360, pMsg=360
+[10:48:42 822]:   msg to ServiceCore msgId=360, pMsg=360. Done
+[10:48:42 824]:   Create Device: NET384x288NOCLIPHS
+[10:48:42 825]:   Thread start. id=11704
+[10:48:42 827]:   Thread start. id=10364
+[10:48:42 828]:   Thread start. id=9732
+[10:48:42 828]:   GD_MTC_SDK_OpenStream
+[10:48:42 829]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:42 831]:   DataPull:: recv MSG_TYPE_OPEN_STREAM msg
+[10:48:42 831]:   Base64Name=YWRtaW46OTk5OQ==
+[10:48:42 930]:   get_curse_info=[gear=1&measurerange=0&mintemp=-100&maxtemp=1600$gear=2&measurerange=0&mintemp=-200&maxtemp=1600$gear=3&measurerange=0&mintemp=-100&maxtemp=1800$gear=1&measurerange=1&mintemp=-100&maxtemp=3600$gear=2&measurerange=1&mintemp=-200&maxtemp=3600$gear=3&measurerange=1&mintemp=-100&maxtemp=3600$gear=1&measurerange=2&mintemp=-100&maxtemp=6600$gear=2&measurerange=2&mintemp=-200&maxtemp=6700$gear=3&measurerange=2&mintemp=-100&maxtemp=6600]
+[10:48:42 930]:   After remove same range info
+[10:48:42 930]:   v.nRangeIndex=0, v.fMinTemp=-10.000000, v.fMaxTemp=160.000000
+[10:48:42 930]:   v.nRangeIndex=1, v.fMinTemp=-10.000000, v.fMaxTemp=360.000000
+[10:48:42 931]:   v.nRangeIndex=2, v.fMinTemp=-10.000000, v.fMaxTemp=660.000000
+[10:48:42 931]:   Update m_pDataCfg->strVskGearDesc, [old=-20¡æ~150¡æ&-20¡æ~350¡æ&100¡æ~650¡æ, new=-10¡æ~160¡æ&-10¡æ~360¡æ&-10¡æ~660¡æ]
+[10:48:42 934]:   H264Pull::openStream
+[10:48:42 934]:   avcodec_register_all
+[10:48:42 934]:   av_register_all
+[10:48:42 934]:   avformat_network_init
+[10:48:42 934]:   avformat_alloc_context
+[10:48:42 934]:   set interruptCb in H264Puller
+[10:48:42 934]:   avformat_open_input
+[10:48:42 969]:   avformat_find_stream_info
+[10:48:42 969]:   After open h264 stream
+[10:48:42 969]:   H264Pull::startRecvStream
+[10:48:42 970]:   H264Puller start recv data.
+[10:48:42 971]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_OPEN_STREAM
+[10:48:42 971]:   wait msg result in time. [nMsgType=1003]
+[10:48:42 971]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:42 971]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:42 983]:   Recv calc parm: [recvDistance=30&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-32242&recvDis_a1=7597&recvDis_b0=828&recvDis_b1=9755&recvDis_c0=-2170&recvDis_c1=677&recvKF=97&&recvB0=200&recvK1=0&recvK2=20000&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=-9150&recvK6=-1974&recvB3=2300]
+[10:48:42 983]:   info->recvEmiss=98
+[10:48:42 983]:   info->recvDistance=30
+[10:48:43 038]:   Send change palette
+[10:48:43 039]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[10:48:43 039]:   wait msg result in time. [nMsgType=1021]
+[10:48:43 039]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:43 039]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:43 041]:  WARNING! Function not support nMsgType=1026, nPullDataType=0
+[10:48:43 041]:   wait msg result in time. [nMsgType=1026]
+[10:48:43 041]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:43 041]:   Send msg OK.[nMsgType=1048, nMsgId=385] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:48:43 042]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:43 047]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1048
+[10:48:43 047]:   wait msg result in time. [nMsgType=1048]
+[10:48:43 047]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:43 047]:   GD_MTC_SDK_GetDeviceInfo
+[10:48:43 048]:   GD_MTC_SDK_GetArmVersion
+[10:48:43 048]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 076]:   Recv armversion is "ZU02A V2.19"
+[10:48:44 129]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1031
+[10:48:44 129]:   wait msg result in time. [nMsgType=1031]
+[10:48:44 129]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 129]:   GD_MTC_SDK_GetArmVersion return
+[10:48:44 129]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 132]:   reqOneFrameIfNeededAndBufferMsg in DataDeal::onMsg MSG_TYPE_DEVICE_INFO
+[10:48:44 132]:   Req One frame to Y16Puller
+[10:48:44 187]:   pCurvesStruct->curve_count=9, pCurvesStruct->curve_length=32768
+[10:48:44 188]:   curve[index, range, gear, len]=[0, 0, 1, 0]
+[10:48:44 188]:   curve[index, range, gear, len]=[1, 0, 2, 0]
+[10:48:44 188]:   curve[index, range, gear, len]=[2, 0, 3, 0]
+[10:48:44 188]:   curve[index, range, gear, len]=[3, 1, 1, 0]
+[10:48:44 189]:   curve[index, range, gear, len]=[4, 1, 2, 0]
+[10:48:44 189]:   curve[index, range, gear, len]=[5, 1, 3, 0]
+[10:48:44 189]:   curve[index, range, gear, len]=[6, 2, 1, 0]
+[10:48:44 189]:   curve[index, range, gear, len]=[7, 2, 2, 0]
+[10:48:44 189]:   curve[index, range, gear, len]=[8, 2, 3, 0]
+[10:48:44 189]:  ERROR! Curve[5], element[5861] format error
+
+[10:48:44 189]:  ERROR! Curve[8], element[4814] format error
+
+[10:48:44 189]:   ProcessOneFrameData
+[10:48:44 189]:   isValidY16Header confirmed
+[10:48:44 234]:   Recv calc parm: [recvDistance=30&recvEmiss=98&recvHumidity=79&recvBackTemp=30&recvBackFlag=0&recvDis_a0=-32242&recvDis_a1=7597&recvDis_b0=828&recvDis_b1=9755&recvDis_c0=-2170&recvDis_c1=677&recvKF=97&&recvB0=200&recvK1=0&recvK2=20000&recvK3=0&recvK4=0&recvB2=0&CorrectionTemp=0&recvK5=-9150&recvK6=-1974&recvB3=2300]
+[10:48:44 234]:   info->recvEmiss=98
+[10:48:44 234]:   info->recvDistance=30
+[10:48:44 285]:   Use HsCurve[1], range=0, gear=2
+[10:48:44 287]:   deviceInfo.DevType = 11 in DataDeal
+[10:48:44 287]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_DEVICE_INFO
+[10:48:44 287]:   wait msg result in time. [nMsgType=1039]
+[10:48:44 287]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 287]:   deviceInfo.DevType=11
+[10:48:44 288]:   Send msg OK.[nMsgType=1048, nMsgId=413] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:48:44 288]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 293]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1048
+[10:48:44 293]:   wait msg result in time. [nMsgType=1048]
+[10:48:44 293]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 295]:   Send msg OK.[nMsgType=1057, nMsgId=417] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:48:44 295]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 299]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1057
+[10:48:44 299]:   wait msg result in time. [nMsgType=1057]
+[10:48:44 299]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 299]:   Send msg OK.[nMsgType=1058, nMsgId=420] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:48:44 299]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 305]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_GET_PALETTE_DATA
+[10:48:44 305]:   wait msg result in time. [nMsgType=1058]
+[10:48:44 305]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 305]:   Send msg OK.[nMsgType=1048, nMsgId=423] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:48:44 305]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 313]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1048
+[10:48:44 313]:   wait msg result in time. [nMsgType=1048]
+[10:48:44 313]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:48:44 660]:   Find first parm line block
+[10:48:59 615]:   Send msg OK.[nMsgType=1021, nMsgId=824] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:48:59 615]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:48:59 622]:   Send change palette
+[10:48:59 623]:   m_DownloadCmdRtnEvent.setEvent(); at MSG_TYPE_SET_PALETTE
+[10:48:59 623]:   wait msg result in time. [nMsgType=1021]
+[10:48:59 623]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:08 284]:   Send msg OK.[nMsgType=1062, nMsgId=1058] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:49:08 284]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:08 291]:   setShowPaletteInfoData in CmdSenderHS, nFlag=3
+[10:49:08 293]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1062
+[10:49:08 293]:   wait msg result in time. [nMsgType=1062]
+[10:49:08 293]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:11 208]:   Send msg OK.[nMsgType=1062, nMsgId=1138] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:49:11 208]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:11 215]:   setShowPaletteInfoData in CmdSenderHS, nFlag=1
+[10:49:11 216]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1062
+[10:49:11 216]:   wait msg result in time. [nMsgType=1062]
+[10:49:11 216]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:13 451]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:13 455]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="0"
+[10:49:13 512]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:13 512]:   wait msg result in time. [nMsgType=1040]
+[10:49:13 512]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:13 884]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:13 887]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="1"
+[10:49:13 944]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:13 944]:   wait msg result in time. [nMsgType=1040]
+[10:49:13 944]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:14 688]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:14 692]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="1"
+[10:49:14 749]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:14 749]:   wait msg result in time. [nMsgType=1040]
+[10:49:14 749]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:14 749]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:14 753]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="addRectAnalyser", strCmdValue=""
+[10:49:14 753]:   x=0, y=0, width=0, height=0, type=1, nPicWidth=384, nPicHeight=288, strIpAddr=192.168.125.104
+[10:49:14 798]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:14 798]:   wait msg result in time. [nMsgType=1040]
+[10:49:14 798]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:23 083]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:23 087]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="0"
+[10:49:23 144]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:23 145]:   wait msg result in time. [nMsgType=1040]
+[10:49:23 145]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:24 011]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:24 015]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="4"
+[10:49:24 071]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:24 071]:   wait msg result in time. [nMsgType=1040]
+[10:49:24 071]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:24 527]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:24 532]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="5"
+[10:49:24 590]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:24 590]:   wait msg result in time. [nMsgType=1040]
+[10:49:24 590]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:25 004]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:25 006]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="6"
+[10:49:25 063]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:25 063]:   wait msg result in time. [nMsgType=1040]
+[10:49:25 063]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:25 791]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:25 796]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="3"
+[10:49:25 854]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:25 854]:   wait msg result in time. [nMsgType=1040]
+[10:49:25 854]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:26 767]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:26 771]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="changeAnalyserTemperatureShowType", strCmdValue="3"
+[10:49:26 827]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:26 827]:   wait msg result in time. [nMsgType=1040]
+[10:49:26 827]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:26 827]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:26 832]:   Recv MSG_TYPE_DOWNLOAD_CMD msg in DataPull, strCmdType="addRectAnalyser", strCmdValue=""
+[10:49:26 832]:   x=0, y=0, width=0, height=0, type=3, nPicWidth=384, nPicHeight=288, strIpAddr=192.168.125.104
+[10:49:26 877]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1040
+[10:49:26 877]:   wait msg result in time. [nMsgType=1040]
+[10:49:26 877]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:29 499]:   Before Send msg in GD_MTC_SDK_CloseStream
+[10:49:29 499]:   Send msg OK.[nMsgType=1005, nMsgId=1661] in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:49:29 499]:   Before DataCore::msgToDataCoreAndWaitForResult
+[10:49:29 499]:   MSG_TYPE_CLOSE_STREAM msg in DataCore
+[10:49:29 500]:   MSG_TYPE_CLOSE_STREAM msg in DataDeal
+[10:49:29 501]:   set m_bExitThreadRecvOneFrame to true in Y16PullerOR2
+[10:49:29 503]:   RecvOneFrameThread thread exit
+[10:49:29 515]:   pObj->m_bOpeningRtsp == false
+[10:49:29 515]:   pObj->m_bOpeningRtsp == false
+[10:49:29 515]:   H264Puller thread exit
+[10:49:29 516]:   onCloseStreamH264Only return 1
+[10:49:29 519]:   MSG_TYPE_CLOSE_STREAM msg in DataCore
+[10:49:29 519]:   m_DownloadCmdRtnEvent.setEvent(); at nType=1005
+[10:49:29 519]:   wait msg result in time. [nMsgType=1005]
+[10:49:29 519]:   After DataCore::msgToDataCoreAndWaitForResult
+[10:49:29 519]:   After Send msg in GD_MTC_SDK_CloseStream
+[10:49:29 519]:   Into msgToThisServiceCoreAndWaitForResult
+[10:49:29 519]:   msg to ServiceCore msgId=1666, pMsg=1666
+[10:49:29 519]:   msg to ServiceCore msgId=1666, pMsg=1666. Done
+[10:49:29 521]:   Before delete DataCore
+[10:49:29 521]:   Before MsgObjThread::stop()
+[10:49:29 521]:   Before MsgObj::stop()
+[10:49:29 521]:   Before m_pMqThread->join();
+[10:49:29 521]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=256861632
+[10:49:29 522]:   Thread exit. id=9732
+[10:49:29 522]:   After m_pThread->join(); in ThreadMq::join
+[10:49:29 522]:   After m_pMqThread->join();
+[10:49:29 522]:   After MsgObj::stop()
+[10:49:29 522]:   After MsgObjThread::stop()
+[10:49:29 522]:   Before delete m_pDataCfg
+[10:49:29 522]:   After delete m_pDataCfg
+[10:49:29 522]:   Before MsgObjThread::stop()
+[10:49:29 522]:   Before MsgObj::stop()
+[10:49:29 522]:   Before m_pMqThread->join();
+[10:49:29 522]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=256861808
+[10:49:29 524]:   Thread exit. id=11704
+[10:49:29 524]:   After m_pThread->join(); in ThreadMq::join
+[10:49:29 524]:   After m_pMqThread->join();
+[10:49:29 524]:   After MsgObj::stop()
+[10:49:29 524]:   After MsgObjThread::stop()
+[10:49:29 524]:   Before delete m_pDataPull
+[10:49:29 524]:   Before MsgObjThread::stop()
+[10:49:29 524]:   Before MsgObj::stop()
+[10:49:29 524]:   Before m_pMqThread->join();
+[10:49:29 524]:   After m_pMqThread->join();
+[10:49:29 524]:   After MsgObj::stop()
+[10:49:29 524]:   After MsgObjThread::stop()
+[10:49:29 524]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:49:29 524]:   After this->quit() in ThreadMq::~ThreadMq
+[10:49:29 524]:   Before this->join() in ThreadMq::~ThreadMq
+[10:49:29 524]:   After this->join() in ThreadMq::~ThreadMq
+[10:49:29 524]:   After delete m_pDataPull
+[10:49:29 525]:   Before MsgObjThread::stop()
+[10:49:29 525]:   Before MsgObj::stop()
+[10:49:29 525]:   Before m_pMqThread->join();
+[10:49:29 525]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=256861456
+[10:49:29 526]:   Thread exit. id=10364
+[10:49:29 527]:   After m_pThread->join(); in ThreadMq::join
+[10:49:29 527]:   After m_pMqThread->join();
+[10:49:29 527]:   After MsgObj::stop()
+[10:49:29 527]:   After MsgObjThread::stop()
+[10:49:29 527]:   Before delete m_pDataDeal
+[10:49:29 527]:   Before ~d20h264f1::DataDeal
+[10:49:29 527]:   Before MsgObjThread::stop()
+[10:49:29 527]:   Before MsgObj::stop()
+[10:49:29 527]:   Before m_pMqThread->join();
+[10:49:29 527]:   After m_pMqThread->join();
+[10:49:29 527]:   After MsgObj::stop()
+[10:49:29 527]:   After MsgObjThread::stop()
+[10:49:29 527]:   After ~d20h264f1::DataDeal
+[10:49:29 527]:   Before ~DataDealTpBase
+[10:49:29 535]:   After ~DataDealTpBase
+[10:49:29 535]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:49:29 535]:   After this->quit() in ThreadMq::~ThreadMq
+[10:49:29 535]:   Before this->join() in ThreadMq::~ThreadMq
+[10:49:29 536]:   After this->join() in ThreadMq::~ThreadMq
+[10:49:29 536]:   After delete m_pDataDeal
+[10:49:29 536]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:49:29 536]:   After this->quit() in ThreadMq::~ThreadMq
+[10:49:29 536]:   Before this->join() in ThreadMq::~ThreadMq
+[10:49:29 536]:   After this->join() in ThreadMq::~ThreadMq
+[10:49:29 536]:   After delete DataCore
+[10:49:30 537]:   4925648, MeasureCoreNet.cpp, 81
+[10:49:30 537]:   4866200, MqUtil\MsgObj.cpp, 45
+[10:49:30 537]:   4872000, MqUtil\ThreadMq.cpp, 19
+[10:49:30 537]:   4871696, MsgObjThread.cpp, 9
+[10:49:30 537]:   94740224, d1h264f1\ServiceCore_1.cpp, 629
+[10:49:30 537]:   77681464, d1h264f1\ServiceCore_1.cpp, 630
+[10:49:30 537]:   Before MsgObjThread::stop()
+[10:49:30 537]:   Before MsgObj::stop()
+[10:49:30 537]:   Before m_pMqThread->join();
+[10:49:30 537]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=4872000
+[10:49:30 538]:   Thread exit. id=5276
+[10:49:30 539]:   After m_pThread->join(); in ThreadMq::join
+[10:49:30 539]:   After m_pMqThread->join();
+[10:49:30 539]:   After MsgObj::stop()
+[10:49:30 539]:   After MsgObjThread::stop()
+[10:49:30 539]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:49:30 539]:   After this->quit() in ThreadMq::~ThreadMq
+[10:49:30 539]:   Before this->join() in ThreadMq::~ThreadMq
+[10:49:30 540]:   After this->join() in ThreadMq::~ThreadMq
+[10:49:30 540]:   Thread start. id=2320

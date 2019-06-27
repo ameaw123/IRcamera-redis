@@ -1,0 +1,3811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Test3Class</class>
+ <widget class="QWidget" name="Test3Class">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>688</width>
+    <height>502</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>272</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Arial</family>
+    <pointsize>8</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Test3</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_6">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_41">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_25">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="sizeConstraint">
+        <enum>QLayout::SetDefaultConstraint</enum>
+       </property>
+       <item>
+        <widget class="QLabel" name="labelShowPic">
+         <property name="minimumSize">
+          <size>
+           <width>384</width>
+           <height>288</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Pic show video</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <layout class="QFormLayout" name="formLayout_2">
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>平均温</string>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>最低温</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>光标温:  </string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>最高温:  </string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="text">
+            <string>中心温</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_50">
+           <property name="text">
+            <string>描述    :  </string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLabel" name="label_51">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="label_53">
+           <property name="text">
+            <string>连接    :  </string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="label_54">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_19">
+         <property name="spacing">
+          <number>0</number>
+         </property>
+         <item>
+          <spacer name="horizontalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Fixed</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeType">
+            <enum>QSizePolicy::Expanding</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QScrollArea" name="scrollArea">
+         <property name="minimumSize">
+          <size>
+           <width>291</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>291</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="widgetResizable">
+          <bool>true</bool>
+         </property>
+         <widget class="QWidget" name="scrollAreaWidgetContents">
+          <property name="geometry">
+           <rect>
+            <x>0</x>
+            <y>-882</y>
+            <width>272</width>
+            <height>2906</height>
+           </rect>
+          </property>
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>272</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>272</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_16">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_18">
+             <property name="spacing">
+              <number>10</number>
+             </property>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_39">
+               <property name="spacing">
+                <number>0</number>
+               </property>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_49"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_50"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_51"/>
+               </item>
+               <item>
+                <widget class="QLineEdit" name="lineEdit_52"/>
+               </item>
+               <item>
+                <widget class="QPushButton" name="pushButton_57">
+                 <property name="maximumSize">
+                  <size>
+                   <width>40</width>
+                   <height>16777215</height>
+                  </size>
+                 </property>
+                 <property name="text">
+                  <string>搜索</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <layout class="QGridLayout" name="gridLayout">
+               <item row="3" column="1">
+                <widget class="QPushButton" name="pushButton_2">
+                 <property name="text">
+                  <string>关闭设备</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="3" column="0">
+                <widget class="QPushButton" name="pushButton">
+                 <property name="text">
+                  <string>打开设备</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="0">
+                <widget class="QPushButton" name="pushButton_4">
+                 <property name="text">
+                  <string>快门</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="1">
+                <widget class="QPushButton" name="pushButton_6">
+                 <property name="text">
+                  <string>Y16录像</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="5" column="1">
+                <widget class="QPushButton" name="pushButton_3">
+                 <property name="text">
+                  <string>拍照</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="8" column="0">
+                <widget class="QPushButton" name="pushButton_5">
+                 <property name="text">
+                  <string>avi录像</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="0">
+                <widget class="QPushButton" name="pushButton_9">
+                 <property name="text">
+                  <string>切换色带</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="9" column="1">
+                <widget class="QComboBox" name="comboBox"/>
+               </item>
+               <item row="10" column="0">
+                <widget class="QPushButton" name="pushButton_32">
+                 <property name="text">
+                  <string>设置帧率</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="10" column="1">
+                <widget class="QComboBox" name="comboBox_4"/>
+               </item>
+               <item row="2" column="0" colspan="2">
+                <layout class="QHBoxLayout" name="horizontalLayout_12">
+                 <property name="spacing">
+                  <number>0</number>
+                 </property>
+                 <item>
+                  <widget class="QRadioButton" name="radioButton_8">
+                   <property name="text">
+                    <string>H264</string>
+                   </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="radioButton_9">
+                   <property name="text">
+                    <string>Y16</string>
+                   </property>
+                   <property name="checked">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="radioButton_10">
+                   <property name="text">
+                    <string>H264+Y16</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </item>
+               <item row="6" column="0">
+                <widget class="QPushButton" name="pushButton_49">
+                 <property name="text">
+                  <string>拍照(非回调)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="6" column="1">
+                <widget class="QPushButton" name="pushButton_50">
+                 <property name="text">
+                  <string>拍照(无温度非回调)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="13" column="1">
+                <widget class="QPushButton" name="pushButton_10">
+                 <property name="text">
+                  <string>测试</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="0">
+                <widget class="QPushButton" name="pushButton_12">
+                 <property name="text">
+                  <string>拍照(无IMG非回调)</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="0">
+                <widget class="QPushButton" name="pushButton_29">
+                 <property name="text">
+                  <string>图片中心温</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="11" column="1">
+                <widget class="QPushButton" name="pushButton_30">
+                 <property name="text">
+                  <string>视频中心温</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="0">
+                <widget class="QPushButton" name="pushButton_55">
+                 <property name="text">
+                  <string>图片温度矩阵</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="12" column="1">
+                <widget class="QPushButton" name="pushButton_56">
+                 <property name="text">
+                  <string>图片矩形温</string>
+                 </property>
+                </widget>
+               </item>
+               <item row="7" column="1">
+                <widget class="QPushButton" name="pushButton_58">
+                 <property name="text">
+                  <string>拍照(一致)</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_11">
+               <property name="title">
+                <string>聚焦</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_17">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <property name="rightMargin">
+                 <number>0</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_2">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_2">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_34">
+                      <property name="text">
+                       <string>近焦</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_65">
+                      <property name="text">
+                       <string>近焦微调</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_39">
+                      <property name="text">
+                       <string>远焦</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_66">
+                      <property name="text">
+                       <string>远焦微调</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_38">
+                    <property name="text">
+                     <string>自动焦</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_40">
+                    <property name="text">
+                     <string>获取电机位置</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_15">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLabel" name="label_26">
+                      <property name="text">
+                       <string> 电机位置  </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_14"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_37">
+                    <property name="text">
+                     <string>设置电机位置</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_12">
+               <property name="title">
+                <string>快门</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_18">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_16">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_35">
+                    <property name="text">
+                     <string>禁用自动快门</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_36">
+                    <property name="text">
+                     <string>启用自动快门</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_42">
+                    <property name="text">
+                     <string>快门</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_59">
+                    <property name="text">
+                     <string>关闭快门</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_60">
+                    <property name="text">
+                     <string>弹开快门</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_14">
+                    <property name="spacing">
+                     <number>6</number>
+                    </property>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_15"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_27">
+                      <property name="text">
+                       <string>Min</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_41">
+                    <property name="text">
+                     <string>设置自动快门时间</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_21">
+               <property name="title">
+                <string>色带</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_19">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_6">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QCheckBox" name="checkBox_2">
+                    <property name="text">
+                     <string>显示色带</string>
+                    </property>
+                    <property name="checked">
+                     <bool>false</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_7">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_19">
+                      <property name="text">
+                       <string>色带左侧显示</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_18">
+                      <property name="text">
+                       <string>色带右侧显示</string>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_22">
+               <property name="title">
+                <string>电子变焦</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_20">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_24">
+                      <property name="text">
+                       <string>X1</string>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_23">
+                      <property name="text">
+                       <string>X2</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_22">
+                      <property name="text">
+                       <string>X4</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_72">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_12">
+                    <property name="spacing">
+                     <number>6</number>
+                    </property>
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_58">
+                      <property name="text">
+                       <string>CenterY</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLineEdit" name="lineEdit_76"/>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_60">
+                      <property name="text">
+                       <string>CenterX</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="lineEdit_75"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_67">
+                    <property name="text">
+                     <string>设置电子变焦</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_14">
+               <property name="title">
+                <string>矩形分析对象</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_23">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_23">
+                  <property name="topMargin">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QCheckBox" name="checkBox_3">
+                    <property name="text">
+                     <string>数字温跟随光标</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_10">
+                    <property name="spacing">
+                     <number>6</number>
+                    </property>
+                    <item row="1" column="2">
+                     <widget class="QLabel" name="label_33">
+                      <property name="text">
+                       <string>Height</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QLabel" name="label_32">
+                      <property name="text">
+                       <string>Width</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLineEdit" name="lineEdit_19"/>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="lineEdit_18"/>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_31">
+                      <property name="text">
+                       <string>Y</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_30">
+                      <property name="text">
+                       <string>X</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QLineEdit" name="lineEdit_20"/>
+                    </item>
+                    <item row="1" column="3">
+                     <widget class="QLineEdit" name="lineEdit_21"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_22">
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_11">
+                      <property name="text">
+                       <string>Max</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_12">
+                      <property name="text">
+                       <string>Min</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_16">
+                      <property name="text">
+                       <string>Avg</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_13">
+                      <property name="text">
+                       <string>Max+Min</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_14">
+                      <property name="text">
+                       <string>Max+Avg</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_15">
+                      <property name="text">
+                       <string>Min+Avg</string>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                      <property name="checked">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QRadioButton" name="radioButton_7">
+                      <property name="text">
+                       <string>Max+Min+Avg</string>
+                      </property>
+                      <property name="checkable">
+                       <bool>true</bool>
+                      </property>
+                      <property name="checked">
+                       <bool>false</bool>
+                      </property>
+                      <property name="autoRepeat">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_22">
+                    <item>
+                     <widget class="QPushButton" name="pushButton_44">
+                      <property name="text">
+                       <string>添加</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_43">
+                      <property name="text">
+                       <string>删除</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_15">
+               <property name="title">
+                <string>添加字符串</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_27">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_24">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_24">
+                    <item>
+                     <widget class="QLabel" name="label_36">
+                      <property name="text">
+                       <string>X</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_24"/>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_35">
+                      <property name="text">
+                       <string>Y</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_23"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_25">
+                    <item>
+                     <widget class="QLabel" name="label_38">
+                      <property name="text">
+                       <string>String</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_26"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_26">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_47">
+                      <property name="text">
+                       <string>禁用</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_46">
+                      <property name="text">
+                       <string>启用</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="pushButton_45">
+                      <property name="text">
+                       <string>添加</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_13">
+               <property name="title">
+                <string>版本</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_21">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <property name="rightMargin">
+                 <number>9</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_21">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <layout class="QFormLayout" name="formLayout_4">
+                    <property name="horizontalSpacing">
+                     <number>0</number>
+                    </property>
+                    <property name="verticalSpacing">
+                     <number>0</number>
+                    </property>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_28">
+                      <property name="text">
+                       <string>ARM  </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="lineEdit_16"/>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_29">
+                      <property name="text">
+                       <string>FPGA </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLineEdit" name="lineEdit_17"/>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_34">
+                      <property name="text">
+                       <string>SDK  </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLineEdit" name="lineEdit_22"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_33">
+                    <property name="text">
+                     <string>获取设备信息</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_16">
+               <property name="title">
+                <string>序列号</string>
+               </property>
+               <layout class="QHBoxLayout" name="horizontalLayout_29">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_28">
+                  <property name="spacing">
+                   <number>0</number>
+                  </property>
+                  <item>
+                   <widget class="QLineEdit" name="lineEdit_25"/>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="pushButton_48">
+                    <property name="text">
+                     <string>获取序列号</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_17">
+               <property name="title">
+                <string>IP地址修改</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_20">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QFormLayout" name="formLayout">
+                  <property name="verticalSpacing">
+                   <number>0</number>
+                  </property>
+                  <item row="0" column="0">
+                   <widget class="QLabel" name="label_37">
+                    <property name="text">
+                     <string>IP地址</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="1" column="0">
+                   <widget class="QLabel" name="label_39">
+                    <property name="text">
+                     <string>子网掩码</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="2" column="0">
+                   <widget class="QLabel" name="label_40">
+                    <property name="text">
+                     <string>网关</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="3" column="0">
+                   <widget class="QLabel" name="label_41">
+                    <property name="text">
+                     <string>DNS</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item row="0" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_30">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_30"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_32"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_31"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_29"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="1" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_37">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_37"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_38"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_39"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_40"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="2" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_38">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_41"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_42"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_43"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_44"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="3" column="1">
+                   <layout class="QHBoxLayout" name="horizontalLayout_40">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_45"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_46"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_47"/>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="lineEdit_48"/>
+                    </item>
+                   </layout>
+                  </item>
+                  <item row="4" column="1">
+                   <widget class="QPushButton" name="pushButton_53">
+                    <property name="text">
+                     <string>修改</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_18">
+               <property name="title">
+                <string>IP地址修改(无连接)</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_26">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                  <item>
+                   <layout class="QFormLayout" name="formLayout_3">
+                    <property name="verticalSpacing">
+                     <number>0</number>
+                    </property>
+                    <item row="0" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_3">
+                      <item>
+                       <widget class="QRadioButton" name="radioButton_3">
+                        <property name="text">
+                         <string>静态IP</string>
+                        </property>
+                        <property name="checked">
+                         <bool>true</bool>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QRadioButton" name="radioButton_2">
+                        <property name="text">
+                         <string>动态IP</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="3" column="0">
+                     <widget class="QLabel" name="label_42">
+                      <property name="text">
+                       <string>原IP地址</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_32">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_35"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_36"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_53"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_54"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="4" column="0">
+                     <widget class="QLabel" name="label_46">
+                      <property name="text">
+                       <string>新IP地址</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_33">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_67"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_68"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_69"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_70"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="5" column="0">
+                     <widget class="QLabel" name="label_43">
+                      <property name="text">
+                       <string>子网掩码</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_42">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_55"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_56"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_57"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_58"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="6" column="0">
+                     <widget class="QLabel" name="label_44">
+                      <property name="text">
+                       <string>网关</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_43">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_59"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_60"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_61"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_62"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="7" column="0">
+                     <widget class="QLabel" name="label_45">
+                      <property name="text">
+                       <string>DNS</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_44">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_63"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_64"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_65"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_66"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="8" column="1">
+                     <widget class="QPushButton" name="pushButton_54">
+                      <property name="text">
+                       <string>修改</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_47">
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>IP类型</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="8" column="0">
+                     <spacer name="horizontalSpacer">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Fixed</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>50</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_23">
+               <property name="title">
+                <string>修改机芯命令端口</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_29">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_12">
+                  <item>
+                   <layout class="QFormLayout" name="formLayout_6">
+                    <property name="verticalSpacing">
+                     <number>0</number>
+                    </property>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_57">
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>IP地址</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_36">
+                      <property name="spacing">
+                       <number>0</number>
+                      </property>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_81"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_82"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_83"/>
+                      </item>
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_84"/>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="1" column="1">
+                     <layout class="QHBoxLayout" name="horizontalLayout_7">
+                      <item>
+                       <widget class="QLineEdit" name="lineEdit_74">
+                        <property name="minimumSize">
+                         <size>
+                          <width>44</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton_73">
+                        <property name="text">
+                         <string>获取</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QPushButton" name="pushButton_74">
+                        <property name="text">
+                         <string>设置</string>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </item>
+                    <item row="4" column="0">
+                     <spacer name="horizontalSpacer_5">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeType">
+                       <enum>QSizePolicy::Fixed</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>50</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_59">
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                      <property name="text">
+                       <string>端口号</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_8">
+               <property name="title">
+                <string>参数</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_11">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_10">
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_7">
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_14">
+                      <property name="text">
+                       <string>发射率</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_16">
+                      <property name="text">
+                       <string>湿度</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="1">
+                     <widget class="QLineEdit" name="lineEdit_8"/>
+                    </item>
+                    <item row="1" column="0">
+                     <widget class="QLabel" name="label_15">
+                      <property name="text">
+                       <string>距离</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="lineEdit_6">
+                      <property name="minimumSize">
+                       <size>
+                        <width>50</width>
+                        <height>0</height>
+                       </size>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLineEdit" name="lineEdit_9"/>
+                    </item>
+                    <item row="3" column="0">
+                     <widget class="QLabel" name="label_17">
+                      <property name="text">
+                       <string>背景温度</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="1">
+                     <widget class="QLineEdit" name="lineEdit_10"/>
+                    </item>
+                    <item row="5" column="3">
+                     <widget class="QPushButton" name="pushButton_7">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="10" column="3">
+                     <widget class="QPushButton" name="pushButton_11">
+                      <property name="text">
+                       <string>保存</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="0">
+                     <widget class="QLabel" name="label_19">
+                      <property name="text">
+                       <string>B2</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="2">
+                     <widget class="QPushButton" name="pushButton_8">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QPushButton" name="pushButton_22">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="1">
+                     <widget class="QCheckBox" name="checkBox">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string/>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="3">
+                     <widget class="QPushButton" name="pushButton_20">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="2">
+                     <widget class="QPushButton" name="pushButton_24">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QPushButton" name="pushButton_13">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="3">
+                     <widget class="QPushButton" name="pushButton_14">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="3">
+                     <widget class="QPushButton" name="pushButton_15">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="2">
+                     <widget class="QPushButton" name="pushButton_25">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="1" column="2">
+                     <widget class="QPushButton" name="pushButton_23">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="3">
+                     <widget class="QPushButton" name="pushButton_21">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="1">
+                     <widget class="QLineEdit" name="lineEdit_7"/>
+                    </item>
+                    <item row="4" column="2">
+                     <widget class="QPushButton" name="pushButton_26">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="0">
+                     <widget class="QLabel" name="label_20">
+                      <property name="text">
+                       <string>背温开关</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="0">
+                     <widget class="QLabel" name="label_21">
+                      <property name="text">
+                       <string>KF</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="1">
+                     <widget class="QLineEdit" name="lineEdit_13"/>
+                    </item>
+                    <item row="6" column="2">
+                     <widget class="QPushButton" name="pushButton_27">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="3">
+                     <widget class="QPushButton" name="pushButton_28">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="0">
+                     <widget class="QLabel" name="label_52">
+                      <property name="text">
+                       <string>档位</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="1">
+                     <widget class="QLineEdit" name="lineEdit_71"/>
+                    </item>
+                    <item row="7" column="3">
+                     <widget class="QPushButton" name="pushButton_61">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="2">
+                     <widget class="QPushButton" name="pushButton_62">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="8" column="0">
+                     <widget class="QLabel" name="label_55">
+                      <property name="text">
+                       <string>UART校验</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="8" column="1">
+                     <widget class="QLineEdit" name="lineEdit_72"/>
+                    </item>
+                    <item row="8" column="3">
+                     <widget class="QPushButton" name="pushButton_68">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="9" column="0">
+                     <widget class="QLabel" name="label_56">
+                      <property name="text">
+                       <string>UART速率</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="9" column="1">
+                     <widget class="QLineEdit" name="lineEdit_73"/>
+                    </item>
+                    <item row="9" column="3">
+                     <widget class="QPushButton" name="pushButton_70">
+                      <property name="text">
+                       <string>设置</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="8" column="2">
+                     <widget class="QPushButton" name="pushButton_69">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="9" column="2">
+                     <widget class="QPushButton" name="pushButton_71">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QGroupBox" name="groupBox_20">
+                  <property name="title">
+                   <string>调光模式</string>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_4">
+                   <property name="leftMargin">
+                    <number>0</number>
+                   </property>
+                   <property name="rightMargin">
+                    <number>0</number>
+                   </property>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_5">
+                     <property name="spacing">
+                      <number>0</number>
+                     </property>
+                     <item>
+                      <widget class="QRadioButton" name="radioButton">
+                       <property name="text">
+                        <string>亮度对比度</string>
+                       </property>
+                       <property name="checked">
+                        <bool>true</bool>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QRadioButton" name="radioButton_4">
+                       <property name="text">
+                        <string>手动温度调光</string>
+                       </property>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QRadioButton" name="radioButton_5">
+                       <property name="text">
+                        <string>自动温度调光</string>
+                       </property>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                   <item>
+                    <layout class="QVBoxLayout" name="verticalLayout_30">
+                     <item>
+                      <widget class="QGroupBox" name="groupBox_10">
+                       <property name="title">
+                        <string>亮度对比度调光</string>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_15">
+                        <property name="leftMargin">
+                         <number>2</number>
+                        </property>
+                        <item>
+                         <layout class="QVBoxLayout" name="verticalLayout_17">
+                          <item>
+                           <layout class="QGridLayout" name="gridLayout_9">
+                            <item row="0" column="0">
+                             <widget class="QLabel" name="label_22">
+                              <property name="text">
+                               <string>亮度</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="1">
+                             <widget class="QLineEdit" name="lineEdit_11">
+                              <property name="minimumSize">
+                               <size>
+                                <width>50</width>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="text">
+                               <string>50</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="3">
+                             <widget class="QPushButton" name="pushButton_16">
+                              <property name="text">
+                               <string>设置</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="2">
+                             <widget class="QPushButton" name="pushButton_17">
+                              <property name="text">
+                               <string>获取</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="3">
+                             <widget class="QPushButton" name="pushButton_18">
+                              <property name="text">
+                               <string>设置</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="0">
+                             <widget class="QLabel" name="label_23">
+                              <property name="text">
+                               <string>对比度</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="2">
+                             <widget class="QPushButton" name="pushButton_19">
+                              <property name="text">
+                               <string>获取</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="1" column="1">
+                             <widget class="QLineEdit" name="lineEdit_12">
+                              <property name="text">
+                               <string>50</string>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </item>
+                         </layout>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                     <item>
+                      <widget class="QGroupBox" name="groupBox_19">
+                       <property name="title">
+                        <string>温度调光</string>
+                       </property>
+                       <layout class="QVBoxLayout" name="verticalLayout_27">
+                        <property name="leftMargin">
+                         <number>2</number>
+                        </property>
+                        <item>
+                         <layout class="QVBoxLayout" name="verticalLayout_28">
+                          <item>
+                           <layout class="QGridLayout" name="gridLayout_11">
+                            <item row="0" column="0">
+                             <widget class="QLabel" name="label_48">
+                              <property name="text">
+                               <string>低值</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="1">
+                             <widget class="QLineEdit" name="lineEdit_27">
+                              <property name="minimumSize">
+                               <size>
+                                <width>50</width>
+                                <height>0</height>
+                               </size>
+                              </property>
+                              <property name="text">
+                               <string>50</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="3">
+                             <widget class="QLineEdit" name="lineEdit_28">
+                              <property name="text">
+                               <string>50</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item row="0" column="2">
+                             <widget class="QLabel" name="label_49">
+                              <property name="text">
+                               <string>高值</string>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </item>
+                          <item>
+                           <layout class="QHBoxLayout" name="horizontalLayout">
+                            <property name="spacing">
+                             <number>0</number>
+                            </property>
+                            <item>
+                             <widget class="QPushButton" name="pushButton_64">
+                              <property name="text">
+                               <string>获取</string>
+                              </property>
+                             </widget>
+                            </item>
+                            <item>
+                             <widget class="QPushButton" name="pushButton_63">
+                              <property name="text">
+                               <string>设置</string>
+                              </property>
+                             </widget>
+                            </item>
+                           </layout>
+                          </item>
+                         </layout>
+                        </item>
+                       </layout>
+                      </widget>
+                     </item>
+                    </layout>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QGroupBox" name="groupBox_9">
+               <property name="title">
+                <string>机芯高低温报警</string>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_13">
+                <property name="leftMargin">
+                 <number>2</number>
+                </property>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_14">
+                  <item>
+                   <layout class="QGridLayout" name="gridLayout_8">
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_24">
+                      <property name="text">
+                       <string>高温报警阈值</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="0">
+                     <widget class="QLabel" name="label_25">
+                      <property name="text">
+                       <string>低温报警阈值</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QCheckBox" name="checkBox_5">
+                      <property name="text">
+                       <string>低温报警</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QCheckBox" name="checkBox_4">
+                      <property name="text">
+                       <string>高温报警</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="2">
+                     <widget class="QPushButton" name="pushButton_52">
+                      <property name="text">
+                       <string>获取</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLineEdit" name="lineEdit_33"/>
+                    </item>
+                    <item row="3" column="1">
+                     <widget class="QLineEdit" name="lineEdit_34"/>
+                    </item>
+                    <item row="2" column="2">
+                     <widget class="QPushButton" name="pushButton_51">
+                      <property name="text">
+                       <string>修改</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="2">
+                     <widget class="QPushButton" name="pushButton_31">
+                      <property name="text">
+                       <string>修改</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>1</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+    </layout>
+   </item>
+  </layout>
+  <zorder></zorder>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="UserDemo.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onOpenDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-798</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>524</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onCloseDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-798</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onShutter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-769</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>459</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onChangePalette()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-653</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>339</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_32</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedButtonFrameRate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-624</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>363</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedY16Record()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-682</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>535</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSnap()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-769</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>537</x>
+     <y>0</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_33</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetDeviceInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>671</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>659</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_40</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedBtnMotorposGet2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>-387</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>345</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_37</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedBtnMotorposSet2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>-330</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>418</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_35</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedDisableShutter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-261</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_36</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedEnableShutter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_42</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onShutter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-215</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_41</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedSetShutterTime()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-124</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_44</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedAddAnalyser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>533</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_43</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedDelAnalyser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>412</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_47</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedDisableAddString()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>496</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_46</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedEnableAddString()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_45</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedAddString()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>539</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_48</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedGetSerialNumber()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>740</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>282</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>242</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>226</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_16</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>265</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>338</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_15</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>362</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>295</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBnClickedMaxMinType()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>386</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_34</sender>
+   <signal>pressed()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnPressedNearFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>-477</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_34</sender>
+   <signal>released()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnReleasedNearFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>-477</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>253</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_39</sender>
+   <signal>pressed()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnPressedFarFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>-446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>281</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_39</sender>
+   <signal>released()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnReleasedFarFocus()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>540</x>
+     <y>-446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>181</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_38</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedBtnFocusAuto()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>663</x>
+     <y>-416</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_49</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSnapNoCb()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-740</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>112</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_50</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSnapWithoutTempNoCb()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-740</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>124</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_53</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedChangeIp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>919</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>664</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedAviRecord()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-682</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetCalcParmB2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetCalcParmB2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSaveParmB2()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>355</x>
+     <y>400</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_17</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetBrightness()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>580</x>
+     <y>1739</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetContrast()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>580</x>
+     <y>1768</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_16</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetBrightness()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>1739</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>408</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_18</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetContrast()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>1768</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSnapWithoutImgNoCb()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-711</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>144</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_22</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetEmiss()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>50</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_23</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetDistance()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>70</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_24</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetHumidity()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>90</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_25</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetBackgroundTemp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1392</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>106</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_26</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetBackgroundTempSwitch()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1421</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>121</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetEmiss()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1305</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>138</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_14</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetDistance()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>149</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_15</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetHumidity()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1363</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_20</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetBackgroundTemp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1392</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>191</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_21</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetBackgroundTempSwitch()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1421</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_27</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetKf()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1479</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>455</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_28</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetKf()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1479</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_4</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onCheckedDeviceAlarm(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>490</x>
+     <y>1952</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_5</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onCheckedDeviceAlarm(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>572</x>
+     <y>1952</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_52</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetDeviceAlarmState()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1955</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_51</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetDeviceAlarmMax()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1984</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_31</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetDeviceAlarmMin()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>2013</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>460</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_54</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBnClickedChangeIpWithoutConnection()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1119</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>427</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnTest()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-537</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>302</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_29</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedButtonPicCenterTemp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_30</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedButtonVideoCenterTemp()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-595</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_55</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedButtonPicTempMatrix()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>-566</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_56</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>OnBnClickedButtonPicTempMax()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-566</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>313</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBtnIpTypeChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>561</x>
+     <y>985</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>349</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRadioBtnIpTypeChanged()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>985</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_57</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onSearchDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-859</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>40</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_58</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSnapUniform()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>664</x>
+     <y>-711</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_59</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onCloseShutter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-192</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_60</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onOpenShutter()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRaioBtnAdjustLightMode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1646</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>80</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRaioBtnAdjustLightMode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1664</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>101</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_64</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetSpanMax()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>532</x>
+     <y>1863</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_63</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetSpanMax()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>1863</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>318</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onRaioBtnAdjustLightMode()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1682</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_61</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetVskGear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1508</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_62</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetVskGear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1508</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>279</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_66</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnPressedFarFocusFine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>662</x>
+     <y>-446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>290</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_65</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnPressedNearFocusFine()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>662</x>
+     <y>-477</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>323</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_68</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetUartCheckAddress()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1537</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_70</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetUartRate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>1566</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onChangePaletteShowInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>-55</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>63</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_19</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onChangePaletteShowInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>-36</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>88</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>radioButton_18</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onChangePaletteShowInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>-18</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>700</x>
+     <y>104</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_67</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onChangeExLevel()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>654</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>703</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_69</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetUartCheckAddress()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1537</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>703</x>
+     <y>398</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_71</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetUartRate()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>592</x>
+     <y>1566</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>703</x>
+     <y>413</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_72</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetExLevelInfo()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>48</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>703</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_73</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedGetCmdPort()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>585</x>
+     <y>1213</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>766</x>
+     <y>388</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_74</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onBtnClickedSetCmdPort()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>1213</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>746</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>checkBox_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Test3Class</receiver>
+   <slot>onCheckedDigitalTempWithCursor()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>429</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>784</x>
+     <y>143</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onOpenDevice()</slot>
+  <slot>onCloseDevice()</slot>
+  <slot>onShutter()</slot>
+  <slot>onChangePalette()</slot>
+  <slot>OnBnClickedButtonFrameRate()</slot>
+  <slot>OnBnClickedBtnFocusNear()</slot>
+  <slot>OnBnClickedBtnFocusFar()</slot>
+  <slot>OnBnClickedBtnFocusAuto()</slot>
+  <slot>slot1()</slot>
+  <slot>onBtnClickedY16Record()</slot>
+  <slot>onBtnClickedSetCalcParm()</slot>
+  <slot>onBtnClickedSnap()</slot>
+  <slot>onBtnPressedNearFocus()</slot>
+  <slot>onBtnPressedFarFocus()</slot>
+  <slot>onBtnReleasedNearFocus()</slot>
+  <slot>onBtnReleasedFarFocus()</slot>
+  <slot>onBtnClickedGetDeviceInfo()</slot>
+  <slot>OnBnClickedBtnMotorposGet2()</slot>
+  <slot>OnBnClickedBtnMotorposSet2()</slot>
+  <slot>OnBnClickedEnableShutter()</slot>
+  <slot>OnBnClickedDisableShutter()</slot>
+  <slot>OnBnClickedSetShutterTime()</slot>
+  <slot>onBnAddAnalyser()</slot>
+  <slot>onBnDelAnalyser()</slot>
+  <slot>onBnClickedAddAnalyser()</slot>
+  <slot>onBnClickedDelAnalyser()</slot>
+  <slot>onBnClickedAddString()</slot>
+  <slot>onBnClickedEnableAddString()</slot>
+  <slot>onBnClickedDisableAddString()</slot>
+  <slot>onBnClickedGetDeviceVersion()</slot>
+  <slot>onBnClickedGetSerialNumber()</slot>
+  <slot>onRadioBnClickedMaxMinType()</slot>
+  <slot>onBtnClickedSnapNoCb()</slot>
+  <slot>onBtnClickedSnapWithoutTempNoCb()</slot>
+  <slot>onBnClickedChangeIp()</slot>
+  <slot>onBtnClickedAviRecord()</slot>
+  <slot>onBtnClickedSetCalcParmB2()</slot>
+  <slot>onBtnClickedGetCalcParmB2()</slot>
+  <slot>onBtnClickedSaveParmB2()</slot>
+  <slot>onBtnClickedGetContrast()</slot>
+  <slot>onBtnClickedSetContrast()</slot>
+  <slot>onBtnClickedGetBrightness()</slot>
+  <slot>onBtnClickedSetBrightness()</slot>
+  <slot>slot2()</slot>
+  <slot>onBtnClickedSnapWithoutImgNoCb()</slot>
+  <slot>onBtnClickedGetEmiss()</slot>
+  <slot>onBtnClickedGetDistance()</slot>
+  <slot>onBtnClickedGetHumidity()</slot>
+  <slot>onBtnClickedGetBackgroundTemp()</slot>
+  <slot>onBtnClickedGetBackgroundTempSwitch()</slot>
+  <slot>slot3()</slot>
+  <slot>onBtnClickedSetEmiss()</slot>
+  <slot>onBtnClickedSetDistance()</slot>
+  <slot>onBtnClickedSetHumidity()</slot>
+  <slot>onBtnClickedSetBackgroundTemp()</slot>
+  <slot>onBtnClickedSetBackgroundTempSwitch()</slot>
+  <slot>onBtnClickedSetKf()</slot>
+  <slot>onBtnClickedGetKf()</slot>
+  <slot>onCheckedDeviceAlarm(bool)</slot>
+  <slot>onBtnClickedGetDeviceAlarmState()</slot>
+  <slot>onBtnClickedSetDeviceAlarmMin()</slot>
+  <slot>onBtnClickedSetDeviceAlarmMax()</slot>
+  <slot>onBnClickedChangeIpWithoutConnection()</slot>
+  <slot>onBtnTest()</slot>
+  <slot>OnBnClickedButtonPicCenterTemp()</slot>
+  <slot>OnBnClickedButtonVideoCenterTemp()</slot>
+  <slot>OnBnClickedButtonPicTempMatrix()</slot>
+  <slot>OnBnClickedButtonPicTempMax()</slot>
+  <slot>onRadioBtnIpTypeChanged()</slot>
+  <slot>onSearchDevice()</slot>
+  <slot>onBtnClickedSnapUniform()</slot>
+  <slot>onCloseShutter()</slot>
+  <slot>onOpenShutter()</slot>
+  <slot>onRaioBtnAdjustLightMode()</slot>
+  <slot>onBtnClickedGetSpanMin()</slot>
+  <slot>onBtnClickedSetSpanMin()</slot>
+  <slot>onBtnClickedGetSpanMax()</slot>
+  <slot>onBtnClickedSetSpanMax()</slot>
+  <slot>onBtnClickedSetVskGear()</slot>
+  <slot>onBtnClickedGetVskGear()</slot>
+  <slot>onBtnPressedFarFocusFine()</slot>
+  <slot>onBtnPressedNearFocusFine()</slot>
+  <slot>onBtnClickedSetUartCheckAddress()</slot>
+  <slot>onBtnClickedSetUartRate()</slot>
+  <slot>onCheckedShowPalette(bool)</slot>
+  <slot>onRadioBnClickedPaletteAlignmentChange()</slot>
+  <slot>onChangePaletteShowInfo()</slot>
+  <slot>onChangeExLevel()</slot>
+  <slot>onBtnClickedGetUartCheckAddress()</slot>
+  <slot>onBtnClickedGetUartRate()</slot>
+  <slot>onBtnClickedGetExLevelInfo()</slot>
+  <slot>onBtnClickedGetCmdPort()</slot>
+  <slot>onBtnClickedSetCmdPort()</slot>
+  <slot>onCheckedDigitalTempWithCursor()</slot>
+ </slots>
+</ui>

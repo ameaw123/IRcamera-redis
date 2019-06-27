@@ -1,0 +1,82 @@
+[10:57:39 810]:   Thread start. id=10984
+[10:57:39 811]:   GD_MTC_SDK_Login
+[10:57:39 811]:   Into msgToThisServiceCoreAndWaitForResult
+[10:57:39 811]:   msg to ServiceCore msgId=0, pMsg=0
+[10:57:39 812]:   msg to ServiceCore msgId=0, pMsg=0. Done
+[10:57:39 813]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:40 814]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[10:57:40 815]:   Now try GetArmVersionHS
+[10:57:40 815]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:41 819]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[10:57:41 819]:  ERROR! getARMVersion failed.
+[10:57:41 819]:  ERROR! getDeviceType failed. Retry!
+[10:57:41 820]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:42 824]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[10:57:42 824]:   Now try GetArmVersionHS
+[10:57:42 824]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:43 827]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[10:57:43 827]:  ERROR! getARMVersion failed.
+[10:57:43 827]:  ERROR! getDeviceType failed. Retry!
+[10:57:43 827]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:44 829]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[10:57:44 829]:   Now try GetArmVersionHS
+[10:57:44 829]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:45 831]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[10:57:45 832]:  ERROR! getARMVersion failed.
+[10:57:45 832]:  ERROR! getDeviceType failed. Retry!
+[10:57:45 832]:  ERROR! getDeviceType failed.
+[10:57:45 832]:   GD_MTC_SDK_Login
+[10:57:45 832]:   Into msgToThisServiceCoreAndWaitForResult
+[10:57:45 832]:   msg to ServiceCore msgId=1, pMsg=1
+[10:57:45 832]:   msg to ServiceCore msgId=1, pMsg=1. Done
+[10:57:45 833]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:46 836]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[10:57:46 836]:   Now try GetArmVersionHS
+[10:57:46 836]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:47 837]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[10:57:47 837]:  ERROR! getARMVersion failed.
+[10:57:47 837]:  ERROR! getDeviceType failed. Retry!
+[10:57:47 838]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:48 841]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[10:57:48 841]:   Now try GetArmVersionHS
+[10:57:48 841]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:49 844]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[10:57:49 844]:  ERROR! getARMVersion failed.
+[10:57:49 844]:  ERROR! getDeviceType failed. Retry!
+[10:57:49 844]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:50 846]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[10:57:50 846]:   Now try GetArmVersionHS
+[10:57:50 846]:   Base64Name=YWRtaW46OTk5OQ==
+[10:57:51 849]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[10:57:51 849]:  ERROR! getARMVersion failed.
+[10:57:51 849]:  ERROR! getDeviceType failed. Retry!
+[10:57:51 849]:  ERROR! getDeviceType failed.
+[10:57:51 850]:   GD_MTC_SDK_OpenStream
+[10:57:51 852]:   - - - - - - - - - - - - - - - 
+[10:57:51 852]:   - - - - - - - - - - - - - - - 
+[10:57:51 852]:  WARNING! Send msg failed[nMsgType=1062, nMsgId=3, nSessionId=-1, m_DataCorePtList.size()=0]. in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:57:51 852]:   - - - - - - - - - - - - - - - 
+[10:57:51 852]:   - - - - - - - - - - - - - - - 
+[10:57:51 853]:  WARNING! Send msg failed[nMsgType=1048, nMsgId=4, nSessionId=-1, m_DataCorePtList.size()=0]. in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:58:27 500]:   Before Send msg in GD_MTC_SDK_CloseStream
+[10:58:27 500]:   - - - - - - - - - - - - - - - 
+[10:58:27 500]:   - - - - - - - - - - - - - - - 
+[10:58:27 500]:  WARNING! Send msg failed[nMsgType=1005, nMsgId=5, nSessionId=-1, m_DataCorePtList.size()=0]. in ServiceCore::msgToDataCoreAndWaitForResultSessionId
+[10:58:27 501]:   After Send msg in GD_MTC_SDK_CloseStream
+[10:58:27 501]:   Into msgToThisServiceCoreAndWaitForResult
+[10:58:27 501]:   msg to ServiceCore msgId=6, pMsg=6
+[10:58:27 501]:   msg to ServiceCore msgId=6, pMsg=6. Done
+[10:58:27 502]:   Before MsgObjThread::stop()
+[10:58:27 502]:   Before MsgObj::stop()
+[10:58:27 502]:   Before m_pMqThread->join();
+[10:58:27 502]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=7299896
+[10:58:27 503]:   Thread exit. id=10984
+[10:58:27 503]:   After m_pThread->join(); in ThreadMq::join
+[10:58:27 503]:   After m_pMqThread->join();
+[10:58:27 503]:   After MsgObj::stop()
+[10:58:27 503]:   After MsgObjThread::stop()
+[10:58:27 503]:   Before this->quit() in ThreadMq::~ThreadMq
+[10:58:27 503]:   After this->quit() in ThreadMq::~ThreadMq
+[10:58:27 503]:   Before this->join() in ThreadMq::~ThreadMq
+[10:58:27 503]:   After this->join() in ThreadMq::~ThreadMq
+[10:58:27 513]:   Thread start. id=4524

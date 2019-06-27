@@ -1,0 +1,40 @@
+[13:06:51 692]:   Thread start. id=2400
+[13:07:14 888]:   Base64Name=YWRtaW46OTk5OQ==
+[13:07:15 891]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[13:07:15 891]:   Now try GetArmVersionHS
+[13:07:15 891]:   Base64Name=YWRtaW46OTk5OQ==
+[13:07:16 892]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[13:07:16 892]:  ERROR! getARMVersion failed.
+[13:07:16 892]:  ERROR! getDeviceType failed. Retry!
+[13:07:16 892]:   Base64Name=YWRtaW46OTk5OQ==
+[13:07:17 892]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[13:07:17 893]:   Now try GetArmVersionHS
+[13:07:17 893]:   Base64Name=YWRtaW46OTk5OQ==
+[13:07:18 893]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[13:07:18 893]:  ERROR! getARMVersion failed.
+[13:07:18 893]:  ERROR! getDeviceType failed. Retry!
+[13:07:18 893]:   Base64Name=YWRtaW46OTk5OQ==
+[13:07:19 895]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull]
+[13:07:19 895]:   Now try GetArmVersionHS
+[13:07:19 895]:   Base64Name=YWRtaW46OTk5OQ==
+[13:07:20 896]:  ERROR! Call socket.ConnectTo ... failed in fun[getARMVersionFull] in CmdSenderHS::getARMVersionFull
+[13:07:20 896]:  ERROR! getARMVersion failed.
+[13:07:20 896]:  ERROR! getDeviceType failed. Retry!
+[13:07:44 544]:   -1518760688, MeasureCoreNet.cpp, 81
+[13:07:44 544]:   -1518899696, MqUtil\MsgObj.cpp, 45
+[13:07:44 544]:   -1518762768, MqUtil\ThreadMq.cpp, 19
+[13:07:44 544]:   -1518899264, MsgObjThread.cpp, 9
+[13:07:44 544]:   Before MsgObjThread::stop()
+[13:07:44 544]:   Before MsgObj::stop()
+[13:07:44 544]:   Before m_pMqThread->join();
+[13:07:44 544]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=-1518762768
+[13:07:44 544]:   Thread exit. id=2400
+[13:07:44 545]:   After m_pThread->join(); in ThreadMq::join
+[13:07:44 545]:   After m_pMqThread->join();
+[13:07:44 545]:   After MsgObj::stop()
+[13:07:44 545]:   After MsgObjThread::stop()
+[13:07:44 545]:   Before this->quit() in ThreadMq::~ThreadMq
+[13:07:44 545]:   After this->quit() in ThreadMq::~ThreadMq
+[13:07:44 545]:   Before this->join() in ThreadMq::~ThreadMq
+[13:07:44 545]:   After this->join() in ThreadMq::~ThreadMq
+[13:07:44 545]:   Thread start. id=7540

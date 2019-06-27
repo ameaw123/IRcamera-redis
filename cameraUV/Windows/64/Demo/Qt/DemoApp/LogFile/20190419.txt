@@ -1,0 +1,19 @@
+[11:42:23 641]:   Thread start. id=8364
+[11:42:27 013]:   3085440, MeasureCoreNet.cpp, 81
+[11:42:27 013]:   2761504, MqUtil\MsgObj.cpp, 45
+[11:42:27 013]:   2916576, MqUtil\ThreadMq.cpp, 19
+[11:42:27 013]:   2761456, MsgObjThread.cpp, 9
+[11:42:27 016]:   Before MsgObjThread::stop()
+[11:42:27 016]:   Before MsgObj::stop()
+[11:42:27 016]:   Before m_pMqThread->join();
+[11:42:27 016]:   Before m_pThread->join(); in ThreadMq::join, m_pThread=2916576
+[11:42:27 017]:   Thread exit. id=8364
+[11:42:27 017]:   After m_pThread->join(); in ThreadMq::join
+[11:42:27 017]:   After m_pMqThread->join();
+[11:42:27 017]:   After MsgObj::stop()
+[11:42:27 017]:   After MsgObjThread::stop()
+[11:42:27 017]:   Before this->quit() in ThreadMq::~ThreadMq
+[11:42:27 017]:   After this->quit() in ThreadMq::~ThreadMq
+[11:42:27 017]:   Before this->join() in ThreadMq::~ThreadMq
+[11:42:27 017]:   After this->join() in ThreadMq::~ThreadMq
+[11:42:27 017]:   Thread start. id=1020
